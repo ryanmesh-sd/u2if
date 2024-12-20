@@ -1,8 +1,6 @@
 name: Build UF2
 
-on: 
-  push
-  workflow_dispatch
+on: [push, workflow_dispatch]
 
 jobs:
   build:
